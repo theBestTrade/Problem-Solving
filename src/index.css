@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b1220;
+  --panel: #111a2e;
+  --line: #1f2b45;
+  --text: #dbe4f0;
+  --dim: #8a9bb8;
+  --amber: #f5b942;
+  --teal: #2dd4bf;
+  --blue: #60a5fa;
+  --green: #4ade80;
+  --red: #f87171;
+  --purple: #c084fc;
+  --mono: "JetBrains Mono", "Consolas", "D2Coding", monospace;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+code, pre, .font-mono {
+  font-family: var(--mono);
+}

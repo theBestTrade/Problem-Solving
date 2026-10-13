@@ -1,0 +1,8 @@
+{
+  "name": "음성 AI Day 5 개념 워크시트 — 딥러닝 오디오 분류",
+  "description": "음성 AI Day 5 개념 워크시트: 딥러닝 오디오 분류 (Speech Commands, Log-Mel, CNN, softmax, cross-entropy, 경사 하강법, 혼동 행렬, SpecAugment) 40문항 인터랙티브 학습 평가",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
